@@ -23,10 +23,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 :root{
-    --purple: #FFD1DC;
-    --black: #;
-    --white: ;
-    --grey: #DFDFDE;
+    --purple: #ec2214;
+    --black: #ffffff;
+    --white: #000000;
+    --grey: #C73659
+    ;
 }
 
 *{
@@ -177,7 +178,7 @@ header{
 
 header.sticky{
     border-bottom: 0.1rem solid var(--grey);
-    background: rgba(0, 0, 0, 0.8);
+    background: rgb(255, 255, 255);
 }
 
 header .logo h2{
@@ -201,7 +202,7 @@ header .navbar a.active{
 
 header #menu-btn{
     font-size: 3rem;
-    color: var(--white);
+    color: white;
     cursor: pointer;
     -webkit-transition: all 0.5s linear;
        -moz-transition: all 0.5s linear;
@@ -226,7 +227,7 @@ header #menu-btn:hover{
 /*--------------------- 4- Home Area CSS (Start) ---------------------*/
 .home{
     padding: 0rem 5%;
-    background-color: var(--black);
+    background-color: white;
     min-height: 100vh;
 }
 
@@ -255,8 +256,8 @@ header #menu-btn:hover{
 }
 
 .home .image img{
-    height: 40rem;
-    width: 40rem;
+    height: 65rem;
+    width: 65rem;
     border-radius: 50% 50% 50% 50% / 30% 30% 70% 70% ;
     object-fit:cover;
 }
@@ -289,7 +290,7 @@ header #menu-btn:hover{
 
 .home .content h1{
     font-size: 4rem;
-    color: var(--white);
+    color: black;
     padding: 1rem 0;
     text-transform: none;
 }
@@ -327,11 +328,13 @@ header #menu-btn:hover{
 .about .image{
     width: 32rem;
     text-align: center;
+    
 }
 
 .about .image img{
     width: 100%;
     border: 1rem solid var(--purple);
+    border-radius: 50%;
 }
 
 .about .content{
@@ -342,7 +345,7 @@ header #menu-btn:hover{
 
 .about .content h2{
     font-size: 3rem;
-    color: var(--white);
+    color: black;
     padding-bottom: 1rem;
 }
 
@@ -376,7 +379,7 @@ header #menu-btn:hover{
 
 .about .content .about-info .info h4{
     font-size: 1.6rem;
-    color: var(--white);
+    color:black;
     padding-bottom: 1rem;
 }
 
@@ -418,14 +421,14 @@ header #menu-btn:hover{
 }
 
 .counting .box .count{
-    font-size: 3.5rem;
+    font-size: 4.0rem;
     color: var(--purple);
-    padding-bottom: 0.5rem;
+    padding-bottom: 1.0rem;
 }
 
 .counting .box h3{
     font-size: 1.8rem;
-    color: var(--white);
+    color: white;
 }
 
 .skill-container{
@@ -460,7 +463,7 @@ header #menu-btn:hover{
     justify-content: space-between;
     padding:.7rem 0;
     font-size: 1.7rem;
-    color: var(--white);
+    color: black;
     font-weight: 400;
 }
 
@@ -548,7 +551,7 @@ header #menu-btn:hover{
     line-height: 5rem;
     text-align: center;
     font-size: 2rem;
-    color:var(--white);
+    color:white;
     background:var(--purple);
 }
 
@@ -560,7 +563,7 @@ header #menu-btn:hover{
 
 .experience-item span{
     background: #222;
-    color: var(--white);
+    color: white;
     padding: 0.5rem 1.5rem;
     font-size: 1.8rem;
     border-radius: 50rem;
