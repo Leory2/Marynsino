@@ -628,7 +628,7 @@ header #menu-btn:hover{
 .service-item h3{
     font-size: 2rem;
     color: var(--white);
-    padding: 1.5rem 0;
+    padding: 2.0rem 0;
 }
 
 .service-item p{
