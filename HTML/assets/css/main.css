@@ -954,7 +954,7 @@ header #menu-btn:hover{
 .blog-item .content .main-heading{
     font-size: 2rem;
     font-weight: bold;
-    color: var(--white);
+    color: white;
 }
 
 .blog-item p{
