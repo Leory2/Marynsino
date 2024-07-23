@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\images\Testimonials\pessoa 2.jpg" />
+    <Content Remove="wwwroot\images\Testimonials\pessoa 3.jpg" />
+  </ItemGroup>
+
+</Project>
